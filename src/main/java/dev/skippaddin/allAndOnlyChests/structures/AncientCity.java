@@ -44,7 +44,7 @@ public class AncientCity extends Structure {
     }};
 
     public static int getItemCount() {
-        return 34;
+        return 33;
     }
 
     @Override
