@@ -8,22 +8,14 @@ import java.util.HashMap;
 public class RuinedPortal extends Structure {
 
     private final HashMap<Material, Boolean> loot = new HashMap<>() {{
-        put(Material.IRON_INGOT, false);
+        put(Material.LODESTONE, false);
+        put(Material.IRON_NUGGET, false);
         put(Material.FLINT, false);
         put(Material.OBSIDIAN, false);
         put(Material.FIRE_CHARGE, false);
         put(Material.FLINT_AND_STEEL, false);
         put(Material.GOLD_NUGGET, false);
         put(Material.GOLDEN_APPLE, false);
-        put(Material.GOLDEN_AXE, false);
-        put(Material.GOLDEN_HOE, false);
-        put(Material.GOLDEN_PICKAXE, false);
-        put(Material.GOLDEN_SHOVEL, false);
-        put(Material.GOLDEN_SWORD, false);
-        put(Material.GOLDEN_HELMET, false);
-        put(Material.GOLDEN_CHESTPLATE, false);
-        put(Material.GOLDEN_LEGGINGS, false);
-        put(Material.GOLDEN_BOOTS, false);
         put(Material.GLISTERING_MELON_SLICE, false);
         put(Material.GOLDEN_CARROT, false);
         put(Material.GOLD_INGOT, false);
@@ -35,8 +27,21 @@ public class RuinedPortal extends Structure {
         put(Material.ENCHANTED_GOLDEN_APPLE, false);
     }};
 
+    private final HashMap<Material, Boolean> enchantedLoot = new HashMap<>() {{
+        put(Material.GOLDEN_AXE, false);
+        put(Material.GOLDEN_HOE, false);
+        put(Material.GOLDEN_PICKAXE, false);
+        put(Material.GOLDEN_SHOVEL, false);
+        put(Material.GOLDEN_SWORD, false);
+        put(Material.GOLDEN_HELMET, false);
+        put(Material.GOLDEN_CHESTPLATE, false);
+        put(Material.GOLDEN_LEGGINGS, false);
+        put(Material.GOLDEN_BOOTS, false);
+    }};
+
+    
     public static int getItemCount() {
-        return 25;
+        return 26;
     }
 
     @Override
@@ -47,5 +52,9 @@ public class RuinedPortal extends Structure {
     @Override
     public @NotNull HashMap<Material, Boolean> getLoot() {
         return loot;
+    }
+
+    public HashMap<Material, Boolean> getEnchantedLoot() {
+        return enchantedLoot;
     }
 }
