@@ -19,11 +19,16 @@ public class BuriedTreasure extends Structure {
         put(Material.PRISMARINE_CRYSTALS, false);
         put(Material.DIAMOND, false);
         put(Material.LEATHER_CHESTPLATE, false);
+        put(Material.IRON_SPEAR, false);
         put(Material.IRON_SWORD, false);
+        put(Material.COPPER_NAUTILUS_ARMOR, false);
+        put(Material.IRON_NAUTILUS_ARMOR, false);
+        put(Material.GOLD_NAUTILUS_ARMOR, false);
+        put(Material.DIAMOND_NAUTILUS_ARMOR, false);
     }};
 
     public static int getItemCount() {
-        return 12;
+        return 17;
     }
 
     @Override
