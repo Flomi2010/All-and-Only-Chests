@@ -18,14 +18,14 @@ public class Shipwreck extends Structure {
         put(Material.COAL, false);
         put(Material.ROTTEN_FLESH, false);
         put(Material.GUNPOWDER, false);
-        put(Material.LEATHER_HELMET, false);
-        put(Material.LEATHER_CHESTPLATE, false);
-        put(Material.LEATHER_LEGGINGS, false);
-        put(Material.LEATHER_BOOTS, false);
         put(Material.COAST_ARMOR_TRIM_SMITHING_TEMPLATE, false);
         put(Material.BAMBOO, false);
         put(Material.PUMPKIN, false);
+        put(Material.COPPER_NAUTILUS_ARMOR, false);
         put(Material.TNT, false);
+        put(Material.IRON_NAUTILUS_ARMOR, false);
+        put(Material.GOLDEN_NAUTILUS_ARMOR, false);
+        put(Material.DIAMOND_NAUTILUS_ARMOR, false);
         put(Material.IRON_INGOT, false);
         put(Material.IRON_NUGGET, false);
         put(Material.EMERALD, false);
@@ -42,8 +42,15 @@ public class Shipwreck extends Structure {
         put(Material.COMPASS, false);
     }};
 
+    private final HashMap<Material, Boolean> enchantedLoot = new HashMap<>() {{
+        put(Material.LEATHER_HELMET, false);
+        put(Material.LEATHER_CHESTPLATE, false);
+        put(Material.LEATHER_LEGGINGS, false);
+        put(Material.LEATHER_BOOTS, false);
+    }};
+    
     public static int getItemCount() {
-        return 32;
+        return 36;
     }
 
     @Override
@@ -54,5 +61,9 @@ public class Shipwreck extends Structure {
     @Override
     public @NotNull HashMap<Material, Boolean> getLoot() {
         return loot;
+    }
+
+    public HashMap<Material, Boolean> getEnchantedLoot() {
+        return enchantedLoot;
     }
 }
