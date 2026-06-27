@@ -33,7 +33,6 @@ public class BastionRemnant extends Structure {
         put(Material.CHAIN, false);
         put(Material.OBSIDIAN, false);
         put(Material.IRON_BLOCK, false);
-        put(Material.IRON_SWORD, false);
         put(Material.BONE_BLOCK, false);
         put(Material.COOKED_PORKCHOP, false);
         put(Material.GOLDEN_CARROT, false);
@@ -69,6 +68,7 @@ public class BastionRemnant extends Structure {
         put(Material.GOLDEN_CHESTPLATE, false);
         put(Material.GOLDEN_LEGGINGS, false);
         put(Material.GOLDEN_BOOTS, false);
+        put(Material.IRON_SWORD, false);
         put(Material.DIAMOND_PICKAXE, false);
         put(Material.DIAMOND_SHOVEL, false);
         put(Material.DIAMOND_SPEAR, false);
