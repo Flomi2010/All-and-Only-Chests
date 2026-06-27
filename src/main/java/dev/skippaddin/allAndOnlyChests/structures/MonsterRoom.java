@@ -14,10 +14,11 @@ public class MonsterRoom extends Structure {
         put(Material.STRING, false);
         put(Material.WHEAT, false);
         put(Material.BREAD, false);
-        put(Material.NAME_TAG, false);
-        put(Material.SADDLE, false);
         put(Material.COAL, false);
         put(Material.REDSTONE, false);
+        put(Material.LEATHER, false);
+        put(Material.NAME_TAG, false);
+        put(Material.COPPER_HORSE_ARMOR, false);
         put(Material.MUSIC_DISC_13, false);
         put(Material.MUSIC_DISC_CAT, false);
         put(Material.IRON_HORSE_ARMOR, false);
@@ -36,7 +37,7 @@ public class MonsterRoom extends Structure {
     }};
 
     public static int getItemCount() {
-        return 25;
+        return 26;
     }
 
     @Override
