@@ -14,12 +14,13 @@ public class DesertPyramid extends Structure {
         put(Material.SAND, false);
         put(Material.STRING, false);
         put(Material.SPIDER_EYE, false);
+        put(Material.LEATHER, false);
         put(Material.ENCHANTED_BOOK, false);
-        put(Material.SADDLE, false);
         put(Material.GOLDEN_APPLE, false);
         put(Material.GOLD_INGOT, false);
         put(Material.IRON_INGOT, false);
         put(Material.EMERALD, false);
+        put(Material.COPPER_HORSE_ARMOR, false);
         put(Material.IRON_HORSE_ARMOR, false);
         put(Material.DUNE_ARMOR_TRIM_SMITHING_TEMPLATE, false);
         put(Material.GOLDEN_HORSE_ARMOR, false);
@@ -29,7 +30,7 @@ public class DesertPyramid extends Structure {
     }};
 
     public static int getItemCount() {
-        return 18;
+        return 19;
     }
 
     @Override
