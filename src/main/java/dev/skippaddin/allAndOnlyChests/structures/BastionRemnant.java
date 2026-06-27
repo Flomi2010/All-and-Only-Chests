@@ -53,6 +53,7 @@ public class BastionRemnant extends Structure {
         put(Material.SADDLE, false);
         put(Material.NETHERITE_INGOT, false);
         put(Material.QUARTZ, false);
+        put(Material.DIAMOND_SPEAR, false);
         put(Material.DIAMOND_SWORD, false);
         put(Material.DIAMOND_HELMET, false);
         put(Material.DIAMOND_CHESTPLATE, false);
@@ -70,6 +71,7 @@ public class BastionRemnant extends Structure {
         put(Material.GOLDEN_BOOTS, false);
         put(Material.DIAMOND_PICKAXE, false);
         put(Material.DIAMOND_SHOVEL, false);
+        put(Material.DIAMOND_SPEAR, false);
         put(Material.DIAMOND_SWORD, false);
         put(Material.DIAMOND_HELMET, false);
         put(Material.DIAMOND_CHESTPLATE, false);
@@ -78,7 +80,7 @@ public class BastionRemnant extends Structure {
     }};
 
     public static int getItemCount() {
-        return 64;
+        return 66;
     }
 
     @Override
