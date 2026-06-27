@@ -22,6 +22,7 @@ public class EndCity extends Structure {
         put(Material.IRON_BOOTS, false);
         put(Material.DIAMOND_PICKAXE, false);
         put(Material.DIAMOND_SHOVEL, false);
+        put(Material.DIAMOND_SPEAR, false);
         put(Material.DIAMOND_SWORD, false);
         put(Material.DIAMOND_HELMET, false);
         put(Material.DIAMOND_CHESTPLATE, false);
@@ -29,13 +30,14 @@ public class EndCity extends Structure {
         put(Material.DIAMOND_BOOTS, false);
         put(Material.EMERALD, false);
         put(Material.SPIRE_ARMOR_TRIM_SMITHING_TEMPLATE, false);
+        put(Material.COPPER_HORSE_ARMOR, false);
         put(Material.IRON_HORSE_ARMOR, false);
         put(Material.GOLDEN_HORSE_ARMOR, false);
         put(Material.DIAMOND_HORSE_ARMOR, false);
     }};
 
     public static int getItemCount() {
-        return 24;
+        return 26;
     }
 
     @Override
