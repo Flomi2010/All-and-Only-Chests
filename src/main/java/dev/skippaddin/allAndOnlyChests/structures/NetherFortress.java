@@ -14,6 +14,7 @@ public class NetherFortress extends Structure {
         put(Material.NETHER_WART, false);
         put(Material.IRON_INGOT, false);
         put(Material.DIAMOND, false);
+        put(Material.COPPER_HORSE_ARMOR, false);
         put(Material.FLINT_AND_STEEL, false);
         put(Material.IRON_HORSE_ARMOR, false);
         put(Material.GOLDEN_SWORD, false);
@@ -24,7 +25,7 @@ public class NetherFortress extends Structure {
     }};
 
     public static int getItemCount() {
-        return 13;
+        return 14;
     }
 
     @Override
