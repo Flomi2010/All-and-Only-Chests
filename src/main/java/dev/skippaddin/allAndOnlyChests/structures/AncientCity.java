@@ -12,6 +12,7 @@ public class AncientCity extends Structure {
         put(Material.BONE, false);
         put(Material.SOUL_TORCH, false);
         put(Material.BOOK, false);
+        put(Material.POTION, false);
         put(Material.ENCHANTED_BOOK, false);
         put(Material.DISC_FRAGMENT_5, false);
         put(Material.ECHO_SHARD, false);
@@ -22,12 +23,12 @@ public class AncientCity extends Structure {
         put(Material.EXPERIENCE_BOTTLE, false);
         put(Material.SCULK_SENSOR, false);
         put(Material.IRON_LEGGINGS, false);
+        put(Material.LEATHER, false);
         put(Material.SCULK_CATALYST, false);
         put(Material.COMPASS, false);
         put(Material.MUSIC_DISC_13, false);
         put(Material.MUSIC_DISC_CAT, false);
         put(Material.LEAD, false);
-        put(Material.LEATHER, false);
         put(Material.DIAMOND_HOE, false);
         put(Material.DIAMOND_HORSE_ARMOR, false);
         put(Material.DIAMOND_LEGGINGS, false);
@@ -40,7 +41,6 @@ public class AncientCity extends Structure {
         put(Material.BAKED_POTATO, false);
         put(Material.GOLDEN_CARROT, false);
         put(Material.SUSPICIOUS_STEW, false);
-        put(Material.POTION, false);
     }};
 
     public static int getItemCount() {
