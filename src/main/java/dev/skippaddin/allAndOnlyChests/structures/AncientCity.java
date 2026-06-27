@@ -27,8 +27,7 @@ public class AncientCity extends Structure {
         put(Material.MUSIC_DISC_13, false);
         put(Material.MUSIC_DISC_CAT, false);
         put(Material.LEAD, false);
-        put(Material.NAME_TAG, false);
-        put(Material.SADDLE, false);
+        put(Material.LEATHER, false);
         put(Material.DIAMOND_HOE, false);
         put(Material.DIAMOND_HORSE_ARMOR, false);
         put(Material.DIAMOND_LEGGINGS, false);
