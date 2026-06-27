@@ -14,17 +14,18 @@ public class JunglePyramid extends Structure {
         put(Material.BAMBOO, false);
         put(Material.IRON_INGOT, false);
         put(Material.WILD_ARMOR_TRIM_SMITHING_TEMPLATE, false);
+        put(Material.LEATHER, false);
         put(Material.DIAMOND, false);
-        put(Material.SADDLE, false);
         put(Material.EMERALD, false);
         put(Material.ENCHANTED_BOOK, false);
+        put(Material.COPPER_HORSE_ARMOR, false);
         put(Material.IRON_HORSE_ARMOR, false);
         put(Material.GOLDEN_HORSE_ARMOR, false);
         put(Material.DIAMOND_HORSE_ARMOR, false);
     }};
 
     public static int getItemCount() {
-        return 13;
+        return 14;
     }
 
     @Override
