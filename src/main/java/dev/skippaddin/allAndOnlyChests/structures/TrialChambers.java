@@ -17,19 +17,14 @@ public class TrialChambers extends Structure {
         put(Material.HONEY_BOTTLE, false);
         put(Material.OMINOUS_BOTTLE, false);
         put(Material.SHIELD, false);
-        put(Material.BOW, false);
         put(Material.DIAMOND, false);
         put(Material.GOLDEN_APPLE, false);
         put(Material.GOLDEN_CARROT, false);
         put(Material.ENCHANTED_BOOK, false);
-        put(Material.CROSSBOW, false);
-        put(Material.IRON_AXE, false);
-        put(Material.IRON_CHESTPLATE, false);
         put(Material.BOLT_ARMOR_TRIM_SMITHING_TEMPLATE, false);
         put(Material.MUSIC_DISC_PRECIPICE, false);
         put(Material.GUSTER_BANNER_PATTERN, false);
         put(Material.DIAMOND_AXE, false);
-        put(Material.DIAMOND_CHESTPLATE, false);
         put(Material.TRIDENT, false);
         put(Material.FLOW_ARMOR_TRIM_SMITHING_TEMPLATE, false);
         put(Material.ENCHANTED_GOLDEN_APPLE, false);
@@ -81,7 +76,14 @@ public class TrialChambers extends Structure {
         put(PotionType.SWIFTNESS, false);
     }};
 
-    private final Pair<Material, Boolean> enchantedLoot = Pair.of(Material.DIAMOND_AXE, false);
+    private final HashMap<Material, Boolean> enchantedLoot = new HashMap<>() {{
+        put(Material.BOW, false);
+        put(Material.CROSSBOW, false);
+        put(Material.IRON_AXE, false);
+        put(Material.IRON_CHESTPLATE, false);
+        put(Material.DIAMOND_AXE, false);
+        put(Material.DIAMOND_CHESTPLATE, false);
+    }};
 
     public static int getItemCount() {
         return 64;
@@ -105,7 +107,7 @@ public class TrialChambers extends Structure {
         return potions;
     }
 
-    public Pair<Material, Boolean> getEnchantedLoot() {
+    public HashMap<Material, Boolean> getEnchantedLoot() {
         return enchantedLoot;
     }
 }
