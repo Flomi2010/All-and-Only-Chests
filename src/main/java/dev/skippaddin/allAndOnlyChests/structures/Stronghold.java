@@ -22,9 +22,10 @@ public class Stronghold extends Structure {
         put(Material.IRON_BOOTS, false);
         put(Material.EYE_ARMOR_TRIM_SMITHING_TEMPLATE, false);
         put(Material.DIAMOND, false);
+        put(Material.LEATHER, false);
+        put(Material.COPPER_HORSE_ARMOR, false);
         put(Material.MUSIC_DISC_OTHERSIDE, false);
         put(Material.ENCHANTED_BOOK, false);
-        put(Material.SADDLE, false);
         put(Material.IRON_HORSE_ARMOR, false);
         put(Material.GOLDEN_APPLE, false);
         put(Material.GOLDEN_HORSE_ARMOR, false);
@@ -37,7 +38,7 @@ public class Stronghold extends Structure {
     }};
 
     public static int getItemCount() {
-        return 26;
+        return 27;
     }
 
     @Override
