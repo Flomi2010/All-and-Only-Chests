@@ -19,6 +19,7 @@ public class Village extends Structure {
         put(Material.COAL, false);
         put(Material.PAPER, false);
         put(Material.MAP, false);
+        put(Material.BUNDLE, false);
         put(Material.STICK, false);
         put(Material.COMPASS, false);
         put(Material.WHEAT_SEEDS, false);
@@ -37,8 +38,8 @@ public class Village extends Structure {
         put(Material.SMOOTH_STONE, false);
         put(Material.YELLOW_DYE, false);
         put(Material.WHITE_WOOL, false);
-        put(Material.BROWN_WOOL, false);
         put(Material.BLACK_WOOL, false);
+        put(Material.BROWN_WOOL, false);
         put(Material.GRAY_WOOL, false);
         put(Material.LIGHT_GRAY_WOOL, false);
         put(Material.SHEARS, false);
@@ -56,12 +57,15 @@ public class Village extends Structure {
         put(Material.IRON_SHOVEL, false);
         put(Material.DIAMOND, false);
         put(Material.APPLE, false);
+        put(Material.COPPER_SPEAR, false);
         put(Material.OAK_SAPLING, false);
         put(Material.OBSIDIAN, false);
+        put(Material.IRON_SPEAR, false);
         put(Material.IRON_SWORD, false);
         put(Material.IRON_CHESTPLATE, false);
         put(Material.IRON_LEGGINGS, false);
         put(Material.IRON_BOOTS, false);
+        put(Material.COPPER_HORSE_ARMOR, false);
         put(Material.IRON_HORSE_ARMOR, false);
         put(Material.GOLDEN_HORSE_ARMOR, false);
         put(Material.DIAMOND_HORSE_ARMOR, false);
@@ -96,7 +100,7 @@ public class Village extends Structure {
     }};
 
     public static int getItemCount() {
-        return 85;
+        return 89;
     }
 
     @Override
