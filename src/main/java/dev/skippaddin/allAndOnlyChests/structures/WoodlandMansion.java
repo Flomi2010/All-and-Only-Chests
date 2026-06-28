@@ -12,11 +12,9 @@ public class WoodlandMansion extends Structure {
         put(Material.GUNPOWDER, false);
         put(Material.ROTTEN_FLESH, false);
         put(Material.STRING, false);
-        put(Material.VEX_ARMOR_TRIM_SMITHING_TEMPLATE, false);
         put(Material.RESIN_CLUMP, false);
-        put(Material.RESIN_BRICK, false);
+        put(Material.VEX_ARMOR_TRIM_SMITHING_TEMPLATE, false);
         put(Material.LEAD, false);
-        put(Material.NAME_TAG, false);
         put(Material.MUSIC_DISC_13, false);
         put(Material.MUSIC_DISC_CAT, false);
         put(Material.GOLDEN_APPLE, false);
@@ -38,7 +36,7 @@ public class WoodlandMansion extends Structure {
     }};
 
     public static int getItemCount() {
-        return 27;
+        return 25;
     }
 
     @Override
